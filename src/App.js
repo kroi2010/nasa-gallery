@@ -1,9 +1,9 @@
 import React from 'react';
-import { injectGlobal } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
 import Gallery from './components/Gallery';
 
-injectGlobal`
+createGlobalStyle`
   body {
     width: 100%;
     background: #21262d;
