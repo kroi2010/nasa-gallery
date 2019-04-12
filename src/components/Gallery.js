@@ -9,7 +9,7 @@ const ContainerG = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  height: 90vh;
   max-width: 1000px;
   left: 0;
   right: 0;

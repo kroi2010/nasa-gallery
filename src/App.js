@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
 import Gallery from './components/Gallery';
 
-createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   body {
     width: 100%;
     background: #21262d;
@@ -27,8 +27,10 @@ createGlobalStyle`
 class App extends React.Component{
 
     render(){
-        return(
-            <Gallery/>
+        return(<div>
+          <GlobalStyle/>
+          <Gallery/>
+        </div>
         )
     }
 }
